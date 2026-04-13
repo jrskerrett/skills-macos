@@ -10,7 +10,7 @@ Security features:
 - Rate limiting: max 60 commands/hour
 - SSH key auth only — no passwords
 
-Target: jon@192.168.68.52 (Jons-Mac-mini.local)
+Target: jon@192.168.68.63 (Jons-Mac-mini.local)
 
 Usage:
   python run.py "<command>"
@@ -33,7 +33,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 # ── Config ─────────────────────────────────────────────────────────────────────
-MAC_HOST        = "192.168.68.52"
+MAC_HOST        = "192.168.68.63"
 MAC_USER        = "jon"
 MAC_TARGET      = f"{MAC_USER}@{MAC_HOST}"
 SSH_KEY         = str(Path.home() / ".ssh" / "id_ed25519")

@@ -8,7 +8,7 @@ description: SSH into Jon's Mac Mini for remote commands, Xcode builds, iOS Simu
 Run commands on Jon's Mac Mini over SSH; transfer files via SCP.
 
 **Script:** `scripts/run.py`
-**Host:** `jon@192.168.68.52` (Jons-Mac-mini.local)
+**Host:** `jon@192.168.68.63` (Jons-Mac-mini.local)
 **SSH key:** `~/.ssh/id_ed25519`
 
 ## Usage
